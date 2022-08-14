@@ -17,11 +17,11 @@ public class Main {
         int firstNumber = 2;
         int secondNumber = 5;
 
-        System.out.println("Before swapping, firstNumber = " + firstNumber + "secondNumber = " + secondNumber);
+        System.out.println("Before swapping, firstNumber = " + firstNumber + " secondNumber = " + secondNumber);
 
         swap(firstNumber, secondNumber);
 
-        System.out.println("After swapping, firstNumber = " + firstNumber + "secondNumber = " + secondNumber);
+        System.out.println("After swapping, firstNumber = " + firstNumber + " secondNumber = " + secondNumber);
     }
 
     public static void swap(int firstNumber, int secondNumber) {
@@ -54,4 +54,4 @@ Before swapping, firstNumber = 2 secondNumber = 5
 After swapping, firstNumber = 5 secondNumber = 2
 ```
 
-Hint: Try modifying the `int` data type to its wrapper class.
+Hint: Try creating a Wrapper class to hold the value of the `int`.
