@@ -28,7 +28,6 @@ public class Main {
         // Write code here to swap the two values
     }
 }
-
 ```
 
 Our goal is to swap `firstNumber` and `secondNumber` so that the value of
@@ -57,4 +56,3 @@ After swapping, firstNumber = 5 secondNumber = 2
 Hint: Try moving the `int` variables up to the `Main` class and making them
 private instance variables with getters and setters. Then try a `Main` object in
 the `main()` method and passing the `Main` object to the `swap()` method.
-12345678910111213141516171819202122232425262728293031323334353637383940404143454
