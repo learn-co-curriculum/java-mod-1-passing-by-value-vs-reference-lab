@@ -12,7 +12,7 @@ understand pass-by-value vs. pass-by-reference.
 Consider the starter code below:
 
 ```java
-public class Main {
+public class Swapper {
     public static void main(String[] args) {
         int firstNumber = 2;
         int secondNumber = 5;
@@ -53,6 +53,7 @@ Before swapping, firstNumber = 2 secondNumber = 5
 After swapping, firstNumber = 5 secondNumber = 2
 ```
 
-Hint: Try moving the `int` variables up to the `Main` class and making them
-private instance variables with getters and setters. Then try a `Main` object in
-the `main()` method and passing the `Main` object to the `swap()` method.
+Hint: Try moving the `int` variables up to the `Swapper` class, making them
+private instance variables with getters and setters. Then try creating a
+`Swapper` object in the `main()` method and passing the `Swapper` object to the
+`swap()` method.
